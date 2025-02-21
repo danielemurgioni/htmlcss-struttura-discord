@@ -9,8 +9,8 @@
 <body>
     <!-- header -->
     <header class="bg-aquamarine">
-        <div class="container d-flex j-content bg-orange">
-            <div class="small-col border p-10">logo</div>
+        <div class="container d-flex j-between bg-orange">
+            <div id="h-logo" class="small-col border p-10">logo</div>
             <div class="big-col border p-10"> 
                 <div id="header-links">
                     <ul>    
@@ -21,7 +21,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="small-col text-right border p-10">login</div>
+            <div id="login" class="small-col text-right border p-10">login</div>
         </div>
     </header>
     <!-- main -->
@@ -54,7 +54,13 @@
             </div>
         </div>
     </main>
+    <hr>
     <!-- footer -->
-    <footer class="bg-darkgrey h-200"></footer>
+    <footer class="bg-darkgrey d-flex a-end h-200">
+        <div class="container d-flex j-between align-center bg-aquamarine h-100">
+            <div id="f-logo" class="bg-pink border">logo</div>
+            <div id="f-button" class="bg-pink border">Bottone</div>
+        </div>
+    </footer>
 </body>
 </html>
