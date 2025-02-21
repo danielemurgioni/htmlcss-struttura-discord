@@ -5,10 +5,8 @@
 }
 
 .container{
-    max-width: 1180px;
+    max-width: 800px;
     margin: 0 auto;
-    padding: 10px;
-    border: 2px solid black;
     display: flex;
 }
 
@@ -28,7 +26,6 @@
 
 header{
     padding: 25px 0px;
-    background-color: aquamarine;
 }
 
 #header-links{
@@ -46,6 +43,14 @@ header{
 
 /*fine header*/
 
+/*main*/
+
+/*fine main*/
+
+/*footer*/
+
+/*fine footer*/
+
 /*utility*/
 
 .j-content{
@@ -56,6 +61,31 @@ header{
     background-color: orange;
 }
 
+.bg-aquamarine{
+    background-color: aquamarine;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-darkgrey{
+    background-color: darkgrey;
+}
+
+
+.h-200{
+    height: 200px;
+}
+
 .text-right{
     text-align: right;
+}
+
+.border{
+    border: 2px dashed black;
+}
+
+.p-10{
+    padding: 10px;
 }
