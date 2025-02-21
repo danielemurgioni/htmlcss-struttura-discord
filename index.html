@@ -9,9 +9,9 @@
 <body>
     <!-- header -->
     <header class="bg-aquamarine">
-        <div class="container j-content bg-orange">
-            <div class="left-col border p-10">logo</div>
-            <div class="center-col border p-10"> 
+        <div class="container d-flex j-content bg-orange">
+            <div class="small-col border p-10">logo</div>
+            <div class="big-col border p-10"> 
                 <div id="header-links">
                     <ul>    
                         <li>link1</li>
@@ -21,11 +21,39 @@
                     </ul>
                 </div>
             </div>
-            <div class="right-col text-right border p-10">login</div>
+            <div class="small-col text-right border p-10">login</div>
         </div>
     </header>
     <!-- main -->
-    <main class="bg-blue h-200"></main>
+    <main>
+        <div id="container1" class="d-flex flex-center bg-blue h-200">
+            <div class="big-col bg-purple border h-100"></div>
+        </div>
+        <div id="container2" class="d-flex flex-center h-200">
+            <div class="big-col bg-yellow border h-100"></div>
+            <div class="small-col bg-pink border h-100"></div>
+        </div>
+        <div id="container3" class="d-flex flex-center bg-darkgrey h-200">
+            <div class="small-col bg-pink border h-100"></div>
+            <div class="big-col bg-yellow border h-100"></div>
+        </div>
+        <div id="container4" class="d-flex flex-center h-200">
+            <div class="big-col bg-yellow border h-100"></div>
+            <div class="small-col bg-pink border h-100"></div>
+        </div>
+        <div id="container5" class="d-flex flex-center bg-darkgrey h-200">
+            <div class="big-col bg-darkgreen border h-100"></div>
+        </div>
+        <div id="container6" class="d-flex flex-center bg-black h-200">
+            <div class="big-col d-flex">
+                <div class="col-1 bg-pink border h-100"></div>
+                <div class="col-2 bg-aquamarine border h-100"></div>
+                <div class="col-3 bg-aquamarine border h-100"></div>
+                <div class="col-4 bg-aquamarine border h-100"></div>
+                <div class="col-5 bg-aquamarine border h-100"></div>
+            </div>
+        </div>
+    </main>
     <!-- footer -->
     <footer class="bg-darkgrey h-200"></footer>
 </body>
